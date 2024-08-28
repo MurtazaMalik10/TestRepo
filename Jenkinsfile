@@ -10,7 +10,7 @@ pipeline {
 
                 script {
 
-                    sh 'docker build -t my-image-name .'
+                    sh 'docker build -t public-image .'
 
                 }
 
@@ -24,7 +24,7 @@ pipeline {
 
                 script {
 
-                    sh 'docker run -d -p 8080:80 my-image-name'
+                    sh 'docker run -d -p 8081:80 public-image'
 
                 }
 
