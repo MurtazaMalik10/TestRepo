@@ -14,7 +14,7 @@ COPY styles.css /usr/share/nginx/html/styles.css
 
 # Expose port 80 to allow external access
 
-EXPOSE 81
+EXPOSE 80
 
 
 
